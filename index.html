@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind & daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Hind Madurai", sans-serif;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="">
+        <!-- navbar -->
+        <nav class="flex justify-between items-center">
+            <div class="flex items-center gap-1 ">
+                <img src="./assets/logo.png" alt="" class="w-[50px]">
+                <p class="text-[#00a63e] text-4xl font-bold">Emergancy <br>Service</p>
+            </div>
+            <div>
+                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px] "><span>0</span>❤️</button>
+
+                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px]"><span>0</span>🪙</button>
+                <button class=" btn w-[123px] h-[52px] bg-[#00a63e] rounded-[50px]"><span>0</span>copy</button>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner-section -->
+        <section class="bg-gradient-to-r from-[#013223] to-[#006747] w-full">
+            <div class="flex justify-center items-center text-center">
+                <div class="my-5">
+                    <img src="./assets/logo.png" alt="" class="mx-auto">
+                    <h2 class="text-4xl font-bold text-[#ffffff]">Emergancy Service Directory</h2>
+                    <p class="text-xl text-white font-semibold">Government Emergency Services at Your Fingertip – A
+                        Project by Government of the People’s Republic of Bangladesh</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- card-section -->
+
+        <section class="bg-gray-300 w-11/12 mx-auto ">
+          <div class="border-2 border-green-500 grid grid-cols-10">
+             <section class=" col-span-9">
+              <div class="grid grid-cols-3">
+                <!-- card-1 -->
+                   <div class="mt-5 rounded-xl bg-white p-8 shadow-sm">
+                <div class="flex justify-between items-center">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-solid fa-heart text-4xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111] mt-4">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <!-- button-father -->
+               <div class="space-x-2">
+                <!-- copy-button -->
+                 <button class=" flex justify-center items-center gap-2 mt-5 w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                  <span>Copy</span></button>
+                <!-- call-button -->
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>Call</button>
+               </div>
+            </div>
+            <!-- card-2 -->
+                   <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-3 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-4 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-5 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-6 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-7 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-8 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+            <!-- card-9 -->
+                     <div class="mt-5">
+                <div class="">
+                    <img src="./assets/emergency.png" alt="">
+                    <i class="fa-thin fa-heart"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
+                <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
+                <p class="text-4xl font-bold text-[#111111]">999</p>
+                <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-12  p-3">All</p>
+                <button class="w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">Copy</button>
+                <button class="w-[180px] h-[40px] bg-[#00a63e] text-white rounded-lg">Call</button>
+            </div>
+          
+              </div>
+             </section>
+            <aside class="border-2 border-blue-500">
+ <h2>call history</h2>
+            </aside>
+          </div>
+
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script/indexd.js"></script>
+</body>
+
+</html>
