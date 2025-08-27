@@ -94,7 +94,7 @@ const cost = 20;
     alert(`📞${subTitle}:${cardNumber}`)
      const addCard = document.getElementById('new-card-1')
  const newCard = document.createElement('div')
- newCard.innerHTML = `   <div class="  w-full flex justify-between items-center bg-white p-3 rounded">
+ newCard.innerHTML = `   <div class="  w-full flex justify-between items-center mt-3 bg-slate-500 p-3 rounded">
     
     <div class="mt-2">
       <h2 class="font-semibold">${cardTittle}</h2>
