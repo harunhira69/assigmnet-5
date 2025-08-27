@@ -92,15 +92,7 @@ const cost = 20;
     money -=cost;
     moneyTag.innerText = money;
     alert(`📞${subTitle}:${cardNumber}`)
-  }
-  else{
-    alert("You don't have enough balance.Please Reacharge")
-  }
-   
-//  alert(`📞${subTitle}:${cardNumber}`)
-
-
- const addCard = document.getElementById('new-card-1')
+     const addCard = document.getElementById('new-card-1')
  const newCard = document.createElement('div')
  newCard.innerHTML = `   <div class="  w-full flex justify-between items-center bg-white p-3 rounded">
     
@@ -116,7 +108,20 @@ const cost = 20;
   </div>
  `
                addCard.append(newCard)
+  } else{
+    alert("❌ You don't have enough coin. You need at least 20 coin");
+  }
+  
+            
+
+   
+
+
+
+
+ 
   })
+ 
 }
 // ...............................................................................................
 const clearHistory = document.getElementById('clear-button').addEventListener('click',function(){
@@ -124,17 +129,17 @@ const clearHistory = document.getElementById('clear-button').addEventListener('c
   newCardContainer.innerHTML = "";
 })
 
-const historyBtn = document.getElementById('history');
-const cardsContainer = document.getElementById('new-card-1');
-const historySection = document.getElementById('history-section');
+// const historyBtn = document.getElementById('history');
+// const cardsContainer = document.getElementById('new-card-1');
+// const historySection = document.getElementById('history-section');
 
-historyBtn.addEventListener('click', function() {
-  // hide cards
-  cardsContainer.style.display = 'none';
+// historyBtn.addEventListener('click', function() {
+//   // hide cards
+//   cardsContainer.style.display = 'none';
   
-  // show history
-  historySection.style.display = 'block';
-});
+//   // show history
+//   historySection.style.display = 'block';
+// });
 
 
 
