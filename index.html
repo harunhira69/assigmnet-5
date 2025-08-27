@@ -37,10 +37,11 @@
                 <p class="text-[#00a63e]  sm:text-center text-4xl font-bold">Emergancy <br class="sm:hidden">Service</p>
             </div>
             <div class="flex gap-2 sm:mt-5">
-                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px] "><span>0</span>❤️</button>
+                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px] "><span id="heart-icon">0</span>❤️</button>
 
-                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px]"><span>0</span>🪙</button>
-                <button class=" btn w-[123px] h-[52px] bg-[#00a63e] rounded-[50px] text-white"><span>0</span>copy</button>
+                <button class="w-[123px] h-[52px] bg-[#41ff6b1a] rounded-[50px]">
+                    <span id="total-money">100</span>🪙</button>
+                <button class=" btn w-[123px] h-[52px] bg-[#00a63e] rounded-[50px] text-white"><span id="copy-count">0</span>copy</button>
 
             </div>
         </nav>
@@ -71,20 +72,20 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/emergency.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-1" class=" fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">National Emerygancy Number </h2>
                 <p class="text-[#5C5C5C] text-lg">National Emergancy</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">999</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">999</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">All</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i  class=" copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="call-card fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -96,20 +97,20 @@
                     <div class="bg-[#DFEFFF] rounded-[16px]">
                         <img src="./assets/police.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-2" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Police Helpline Number </h2>
                 <p class="text-[#5C5C5C] text-lg">Police</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">999</p>
+                <p class=" copy-hotline text-4xl font-bold text-[#111111] mt-4">999</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Police</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i  class=" copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="call-card fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -121,20 +122,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/fire-service.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-3" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Fire Service Number </h2>
                 <p class="text-[#5C5C5C] text-lg">Fire Service</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">999</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">999</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Fire</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i  class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -146,20 +148,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/ambulance.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-4" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Ambulance Service </h2>
                 <p class="text-[#5C5C5C] text-lg">Ambulance</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">1994-999999</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">1994-999999</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Health</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class="hover:bg-gray-400  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i  class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class=" hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -171,20 +174,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/emergency.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-5" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Women & Child Helpline </h2>
                 <p class="text-[#5C5C5C] text-lg">Women & Child Helpline</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">109</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">109</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Help</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -196,20 +200,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/emergency.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-6" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Anti-Corruption Helpline </h2>
                 <p class="text-[#5C5C5C] text-lg">Anti-Corruption</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">106</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">106</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Govt.</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i  class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -221,20 +226,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/emergency.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-7" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Electricity Helpline </h2>
                 <p class="text-[#5C5C5C] text-lg">Electricity Outage</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">16216</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">16216</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Electricity</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400 gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -246,20 +252,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/brac.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-8" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Brac Helpline </h2>
                 <p class="text-[#5C5C5C] text-lg">Brac</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">16445</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">16445</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">NGO</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -271,20 +278,21 @@
                     <div class="bg-[#FFE3E2] rounded-[16px]">
                         <img src="./assets/Bangladesh-Railway.png" alt="" class="w-12">
                     </div>
-                    <i class="fa-solid fa-heart text-3xl"></i>
+                    <i id="heart-button-9" class="fa-solid fa-heart text-3xl"></i>
                 </div>
                 <h2 class="text-2xl font-bold text-[#111111]">Bangladesh Railway Helpline  </h2>
                 <p class="text-[#5C5C5C] text-lg">Railway</p>
-                <p class="text-4xl font-bold text-[#111111] mt-4">163</p>
+                <p class="copy-hotline text-4xl font-bold text-[#111111] mt-4">163</p>
                 <p class="bg-[#F2F2F2] text-lg text-[#5C5C5C] rounded-full w-[50px] text-center">Travel</p>
                 <!-- button-father -->
                <div class="flex items-center mt-5 space-x-2">
                 <!-- copy-button -->
-                 <button class="  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
-                    <span><i class="fa-regular fa-copy w-[50px]"></i></span>
+                 <button class=" hover:bg-gray-400  gap-2  w-[180px] h-[40px] text-[#5c5c5c]  border-1 border-[#d4d6d5] bg-[#ffffff] rounded-lg">
+                    <span><i class="copy-btn fa-regular fa-copy w-[50px]"></i></span>
                   <span>Copy</span></button>
                 <!-- call-button -->
-                <button class="w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg "><span class=""><i class="fa-solid fa-phone text-base"></i></span>
+                <button class="hover:bg-gray-700 w-[180px] h-[40px] gap-2 bg-[#00a63e] text-white rounded-lg ">
+                    <span class=""><i class="call-card  fa-solid fa-phone text-base"></i></span>
 
 
                     Call</button>
@@ -305,21 +313,20 @@
                <div class="flex justify-between items-center mt-2 ">
                  <div class="flex items-center ">
                      <i class="fa-solid fa-clock-rotate-left text-xl"></i>
-                     <h2 class="font-medium text-xl text-[#111111]">Call History</h2>
+                     <h2 id="" class="font-medium text-xl text-[#111111] "><span id="history">Call History</span></h2>
                 </div>
-                <button class="w-[114px] h-[52px] bg-[#00a63e] text-white rounded-[50px]">Clear</button>
+                <button id="clear-button" class="w-[114px] h-[52px] bg-[#00a63e] text-white rounded-[50px] hover:bg-slate-300">Clear</button>
                </div>
 
 
 
 
                <!-- .................................................... -->
-               <div class="container bg-slate-500 flex justify-between items-center mt-10">
-               <div>
-                 <h2>Fire Service Number</h2>
-                <p>999</p>
-               </div>
-               <p>11:36:58 AM</p>
+               <div id="history-section">
+              <div id="new-card-1">
+
+
+              </div>
 
                </div>
               
